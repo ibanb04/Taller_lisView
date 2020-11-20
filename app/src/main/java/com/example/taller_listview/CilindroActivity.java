@@ -29,11 +29,11 @@ public class CilindroActivity extends AppCompatActivity {
             r = Double.parseDouble(radio.getText().toString());
             a = Double.parseDouble(altura.getText().toString());
 
-            res = 3.14*(r*r)*a;
+            res = 3.1415926*(r*r)*a;
             h = new Historial(getString(R.string.cilindro),getString(R.string.valor_altura)
                     +a+getString(R.string.valor_radio)+r,String.format("%.2f", res));
             h.guardar();
-            resultado.setText("El Resultado es: "+String.format("%.2f", res));
+            resultado.setText(getString(R.string.valor_resultado)+String.format("%.2f", res));
         }
     }
 

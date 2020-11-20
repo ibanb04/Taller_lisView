@@ -33,7 +33,7 @@ public class TrianguloActivity extends AppCompatActivity {
             h = new Historial(getString(R.string.triangulo),getString(R.string.valor_altura)
                     +a+getString(R.string.valor_base)+b,String.format("%.2f", res));
             h.guardar();
-            resultado.setText("El Resultado es: "+String.format("%.2f", res));
+            resultado.setText(getString(R.string.valor_resultado)+String.format("%.2f", res));
         }
     }
 

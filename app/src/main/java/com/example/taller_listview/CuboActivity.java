@@ -31,7 +31,7 @@ public class CuboActivity extends AppCompatActivity {
             res = l*l*l;
             h = new Historial(getString(R.string.cubo),getString(R.string.valor_lado)+l,String.format("%.2f", res));
             h.guardar();
-            resultado.setText("El Resultado es: "+String.format("%.2f", res));
+            resultado.setText(getString(R.string.valor_resultado)+String.format("%.2f", res));
         }
     }
 

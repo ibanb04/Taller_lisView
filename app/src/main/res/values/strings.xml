@@ -13,10 +13,10 @@
     </string-array>
 
     //Lista de opciones para Areas
-    <string name="cuadrado">Cuadrado</string>
-    <string name="rectangulo">Rectangulo</string>
-    <string name="triangulo">Triangulo</string>
-    <string name="circulo">Circulo</string>
+    <string name="cuadrado">Area Cuadrado</string>
+    <string name="rectangulo">Area Rectangulo</string>
+    <string name="triangulo">Area Triangulo</string>
+    <string name="circulo">Area Circulo</string>
     <string-array name="opciones_area">
         <item>@string/cuadrado</item>
         <item>@string/rectangulo</item>
@@ -25,10 +25,10 @@
     </string-array>
 
     //Lista de opciones para volumenes
-    <string name="esfera">Esfera</string>
-    <string name="cilindro">Cilindro</string>
-    <string name="cono">Cono</string>
-    <string name="cubo">Cubo</string>
+    <string name="esfera">Volumen Esfera</string>
+    <string name="cilindro">Volumen Cilindro</string>
+    <string name="cono">Volumen Cono</string>
+    <string name="cubo">Volumen Cubo</string>
     <string name="valor_lado">Lado: </string>
     <string name="ingrese_valor">Ingrese aqui el valor</string>
     <string name="calcular">calcular</string>
@@ -40,6 +40,7 @@
     <string name="operacion">operacion</string>
     <string name="datos">Datos</string>
     <string name="resultado">Resultado</string>
+    <string name="valor_resultado">El Resultado es:</string>
     <string-array name="opciones_volumenes">
         <item>@string/esfera</item>
         <item>@string/cilindro</item>

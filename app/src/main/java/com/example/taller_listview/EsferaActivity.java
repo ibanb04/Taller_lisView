@@ -25,10 +25,10 @@ public class EsferaActivity extends AppCompatActivity {
         if (validar()){
             r = Double.parseDouble(radio.getText().toString());
 
-            res = (4*3.14*(r*r*r))/3;
+            res = (4*3.1415926*(r*r*r))/3;
             h = new Historial(getString(R.string.esfera),getString(R.string.valor_radio)+r,String.format("%.2f", res));
             h.guardar();
-            resultado.setText("El Resultado es: "+String.format("%.2f", res));
+            resultado.setText(getString(R.string.valor_resultado)+String.format("%.2f", res));
         }
     }
 
