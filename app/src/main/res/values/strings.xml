@@ -36,6 +36,10 @@
     <string name="valor_base">Valor de la base</string>
     <string name="valor_altura">Valor de la altura</string>
     <string name="valor_radio">Valor del radio:</string>
+    <string name="nro">Nro.</string>
+    <string name="operacion">operacion</string>
+    <string name="datos">Datos</string>
+    <string name="resultado">Resultado</string>
     <string-array name="opciones_volumenes">
         <item>@string/esfera</item>
         <item>@string/cilindro</item>
