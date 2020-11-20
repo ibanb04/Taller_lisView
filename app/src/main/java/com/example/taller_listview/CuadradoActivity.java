@@ -27,7 +27,7 @@ public class CuadradoActivity extends AppCompatActivity {
         l = Double.parseDouble(lados.getText().toString());
 
         res = l * l;
-        h = new Historial(getString(R.string.cuadrado),getString(R.string.valor_lado)+l,""+res);
+        h = new Historial(getString(R.string.cuadrado),getString(R.string.valor_lado)+l,String.format("%.2f", res));
         h.guardar();
         resultado.setText("El Resultado es: "+String.format("%.2f", res));
         }

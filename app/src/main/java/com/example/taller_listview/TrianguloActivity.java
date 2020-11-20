@@ -18,18 +18,21 @@ public class TrianguloActivity extends AppCompatActivity {
         setContentView(R.layout.activity_triangulo);
         base = findViewById(R.id.txtBaseTriangulo);
         altura = findViewById(R.id.txtAlturaTriangulo);
-        resultado = findViewById(R.id.txtTriangulo);
+        resultado = findViewById(R.id.txtResTriangulo);
     }
 
 
     public void Calcular(View v){
         double b, a, res;
-
+        Historial h;
         if(validar()){
             b = Double.parseDouble(base.getText().toString());
             a = Double.parseDouble(altura.getText().toString());
 
             res = (b*a)/2;
+            h = new Historial(getString(R.string.triangulo),getString(R.string.valor_altura)
+                    +a+getString(R.string.valor_base)+b,String.format("%.2f", res));
+            h.guardar();
             resultado.setText("El Resultado es: "+String.format("%.2f", res));
         }
     }

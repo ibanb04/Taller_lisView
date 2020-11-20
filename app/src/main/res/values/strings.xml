@@ -29,13 +29,13 @@
     <string name="cilindro">Cilindro</string>
     <string name="cono">Cono</string>
     <string name="cubo">Cubo</string>
-    <string name="valor_lado">Valor del Lado:</string>
+    <string name="valor_lado">Lado: </string>
     <string name="ingrese_valor">Ingrese aqui el valor</string>
     <string name="calcular">calcular</string>
     <string name="limpiar">Limpiar</string>
-    <string name="valor_base">Valor de la base</string>
-    <string name="valor_altura">Valor de la altura</string>
-    <string name="valor_radio">Valor del radio:</string>
+    <string name="valor_base">Base: </string>
+    <string name="valor_altura">Altura: </string>
+    <string name="valor_radio">Radio: </string>
     <string name="nro">Nro.</string>
     <string name="operacion">operacion</string>
     <string name="datos">Datos</string>

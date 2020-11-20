@@ -24,12 +24,15 @@ public class RectanguloActivity extends AppCompatActivity {
 
     public void Calcular(View v){
         double b, a, res;
-
+        Historial h;
         if(validar()){
         b = Double.parseDouble(base.getText().toString());
         a = Double.parseDouble(altura.getText().toString());
 
         res = b * a;
+        h = new Historial(getString(R.string.rectangulo),getString(R.string.valor_altura)
+                    +a+getString(R.string.valor_base)+b,String.format("%.2f", res));
+        h.guardar();
         resultado.setText("El Resultado es: "+String.format("%.2f", res));
         }
     }

@@ -20,11 +20,14 @@ public class CirculoActivity extends AppCompatActivity {
     }
 
     public void Calcular(View v){
-        double l, res;
+        double r, res;
+        Historial h;
         if (validar()){
-            l = Double.parseDouble(radio.getText().toString());
+            r = Double.parseDouble(radio.getText().toString());
 
-            res = 3.14*(l*l);
+            res = 3.14*(r*r);
+            h = new Historial(getString(R.string.circulo),getString(R.string.valor_radio)+r,""+res);
+            h.guardar();
             resultado.setText("El Resultado es: "+String.format("%.2f", res));
         }
     }
