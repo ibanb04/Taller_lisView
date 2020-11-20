@@ -22,10 +22,13 @@ public class CuadradoActivity extends AppCompatActivity {
 
     public void Calcular(View v){
         double l, res;
+        Historial h;
        if (validar()){
         l = Double.parseDouble(lados.getText().toString());
 
         res = l * l;
+        h = new Historial(getString(R.string.cuadrado),getString(R.string.valor_lado)+l,""+res);
+        h.guardar();
         resultado.setText("El Resultado es: "+String.format("%.2f", res));
         }
     }
