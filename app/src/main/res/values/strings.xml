@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Taller_ListView</string>
     <string name="titulo_opciones">Opciones</string>
+    <string name="mensaje_error">Complete el campo</string>
   //lista de opciones general
     <string name="areas">Areas</string>
     <string name="volumenes">Volumenes</string>
@@ -28,6 +29,13 @@
     <string name="cilindro">Cilindro</string>
     <string name="cono">Cono</string>
     <string name="cubo">Cubo</string>
+    <string name="valor_lado">Valor del Lado:</string>
+    <string name="ingrese_valor">Ingrese aqui el valor</string>
+    <string name="calcular">calcular</string>
+    <string name="limpiar">Limpiar</string>
+    <string name="valor_base">Valor de la base</string>
+    <string name="valor_altura">Valor de la altura</string>
+    <string name="valor_radio">Valor del radio:</string>
     <string-array name="opciones_volumenes">
         <item>@string/esfera</item>
         <item>@string/cilindro</item>
